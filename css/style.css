@@ -485,14 +485,14 @@ justify-content: space-around;
     margin-bottom: 12px;
 }
 .novi{
-    width: 100%;
+   
 display: flex;
 align-items: center;
 justify-content: space-around;
 position: absolute;
 }
 .novi img{
-   
+    margin-left: 20px;
     margin-top: 18px;
 
 }
