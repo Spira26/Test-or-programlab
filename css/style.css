@@ -5,10 +5,9 @@ html {
 body {
     margin: 0;
     padding: 0;
-    width: 370px;
     overflow-y: scroll;
     overflow-x: hidden;
-
+max-width: 600px;
     @font-face {
         font-family: 'Stem';
         src: url(/fonts/Stem-Light.ttf);
@@ -20,11 +19,12 @@ body {
     }
 }
 
+
+
 @media (min-width: 350px) and (max-width: 770px),
 (orientation: landscape) {
     body {
         background: #FAFAFB;
-
         overflow-x: hidden;
     }
 
@@ -403,4 +403,97 @@ body {
         font-size: 15px;
         color: #22222299;
     }
+.conteiner7{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    .uved{
+        width: 100%;
+        height: 56px;
+        display: flex;
+        align-items: center;
+    justify-content: space-between;
+    }
+    .uved img{
+        margin-left: 16px;
+        width: 24px;
+        height: 24px;
+    }
+    .uved p{
+        color: #04B6F5;
+font-size: 16px;
+font-family: Montserrat Black;
+margin-right: 16px;
+    }
+    .kred{
+width: 328px;
+height: 90px;
+background: #FFFFFF;
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 12px;
+
+    }
+    .kred .kor{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .kor img{
+        width: 20px;
+        height: 20px;
+       
+    }
+    .kor li{
+        margin-bottom: 0px;
+        
+    }
+    .kred p{
+        margin: 0;
+    }
+.conteiner8{
+    width: 100%;
+}
+.serv{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.conteiner8 .info {
+    width: 158px;
+    height: 110px;
+    border-radius: 16px;
+    background: #FFFFFF;
+}
+
+.conteiner8 .info img {
+    width: 38px;
+    height: 38px;
+    margin: 12px 180px 8px 12px;
+}
+
+.conteiner8  .info h5 {
+    margin-top: 0;
+    margin-left: 12px;
+    margin-bottom: 0;
+}
+.conteiner8 .blocktwo{
+    margin-bottom: 12px;
+}
+.novi{
+    width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-around;
+position: absolute;
+}
+.novi img{
+   
+    margin-top: 18px;
+
+}
 }
